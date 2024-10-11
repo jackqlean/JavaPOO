@@ -30,13 +30,16 @@ public class Account {
         return balance;
     }
     public String toString() {
-        return "Account " + getNumber()+", Holder: "+getHolder()+", Balance: $"+String.format("%.2f", getBalance());
+        return "Account "
+                + getNumber()+", Holder: "
+                + getHolder()+", Balance: $"
+                + String.format("%.2f", getBalance());
     }
     public void addDeposit (double amount) {
         balance+= amount;
     }
     public void removeDeposit (double amount) {
-        balance-= amount + 5.0;
-  }
+        balance-= amount + 5.00;
+    }
 }
 
