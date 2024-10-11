@@ -33,13 +33,13 @@ public class Program2 {
         System.out.println(account);
         System.out.println();
 
-        System.out.print("Enter a deposite value :");
+        System.out.print("Enter a deposite value : ");
         double depositValue = sc.nextDouble();
         account.addDeposit(depositValue);
         System.out.println("Updated account date :");
         System.out.println(account);
         System.out.println();
-        System.out.print("Enter a value for remove of account:");
+        System.out.print("Enter a value for remove of account: ");
         double removeValue;
         removeValue = sc.nextDouble();
         account.removeDeposit(removeValue);
