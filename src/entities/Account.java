@@ -32,7 +32,7 @@ public class Account {
     public String toString() {
         return "Account "
                 + getNumber()+", Holder: "
-                + getHolder()+", Balance: $"
+                + getHolder()+", Balance: $ "
                 + String.format("%.2f", getBalance());
     }
     public void addDeposit (double amount) {
