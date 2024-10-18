@@ -11,9 +11,9 @@ public class Program7 {
 
 	public static void main(String[] args) {
 
-		Accounts acc1 = new Accounts(1001, "Alex", 1000.0);
+		/*Accounts acc1 = new Accounts(1001, "Alex", 1000.0);
 		acc1.withdraw(200.0);
-		System.out.println(acc1.getBalance());
+		System.out.println(acc1.getBalance());*/
 		
 		Accounts acc2 = new SavingsAccount(1002, "Maria", 1000.0, 0.01);
 		acc2.withdraw(200.0);
@@ -42,7 +42,7 @@ public class Program7 {
 		}
 
 		for(Accounts acc: list){
-			System.out.printf("Update balance for account %d - %.2f%n",acc.getNumber(),acc.getBalance());
+			System.out.printf("Updated balance for account %d - %.2f%n",acc.getNumber(),acc.getBalance());
 		}
 	}
 }
