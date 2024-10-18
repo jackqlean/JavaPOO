@@ -42,7 +42,7 @@ public class Program7 {
 		}
 
 		for(Accounts acc: list){
-			System.out.printf("Updatec balance for account %d - %.2f%n",acc.getNumber(),acc.getBalance());
+			System.out.printf("Update balance for account %d - %.2f%n",acc.getNumber(),acc.getBalance());
 		}
 	}
 }
