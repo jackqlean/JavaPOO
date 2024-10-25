@@ -1,7 +1,7 @@
 package application;
 
 import model.entities.Reservation;
-import models.exceptions.DomainException;
+import model.exceptions.DomainException;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
