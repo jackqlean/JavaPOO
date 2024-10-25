@@ -1,6 +1,6 @@
 package model.entities;
 
-import models.exceptions.DomainException;
+import model.exceptions.DomainException;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
