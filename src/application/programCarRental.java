@@ -27,8 +27,6 @@ public class programCarRental {
 
         CarRental cr = new CarRental(start,finish, new Vehicle(carModel));
 
-        /*BrazilTaxService taxService = new BrazilTaxService();
-        System.out.println(taxService.tax(390.0));*/
         System.out.print("Entre com o preço por hora: ");
         double pricePerHour = sc.nextDouble();
         System.out.print("Entre com o preço por dia: ");
