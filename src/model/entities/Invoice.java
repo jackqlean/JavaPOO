@@ -25,12 +25,9 @@ public class Invoice {
         return tax;
     }
 
-    public void setTax(Double tax) {
-        this.tax = tax;
-    }
+    public void setTax(Double tax) {this.tax = tax;}
 
     public Double getTotalPayment(){
-        return getBasicPayment() - getTax();
+        return getBasicPayment() + getTax();
     }
-
 }
